@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: black;
+}
+
+.container {
+  background: #202020;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+  gap: 50px;
+ 
+}
+
+.uno {
+  background: #f13929;
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+}
+
+.dos {
+  background: #7250ff;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.tres {
+  background: #01d0f8;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.container-dos {
+  background:#202020 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #f13929;
+  font-size: 30px;
+  font-weight: 600;
+}

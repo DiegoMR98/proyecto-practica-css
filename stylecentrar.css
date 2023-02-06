@@ -1,0 +1,49 @@
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.boxcontainer {
+    background: #7250ff;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.uno {
+    background: #f13929;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+a {
+   text-decoration: none; 
+   font-size: 30px;
+   color: #f13929;
+   font-weight: 600;
+  
+   
+}
+
+.container-dos {
+    background: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}

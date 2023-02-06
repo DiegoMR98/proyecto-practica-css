@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>
+    AppDeGatos
+  </title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&family=Raleway&family=Rubik+Bubbles&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <h2>Más proyectos:</h2> <br>
+  <div class="menu">
+  <a href="1 Menu basico/indexmenu.html">Proyecto 1-Menú básico responsive</a> <br>
+  <a href="2 Imagenes apiladas/indeximagenes.html">Proyecto 2-Imágenes apiladas</a> <br>
+  <a href="3 Barra busqueda/indexbarra.html">Proyecto 3-Barra búsqueda</a> <br>
+  <a href="4 Confirmar/indexconfirmar.html">Proyecto 4-Confirmar</a> <br>
+  <a href="5 Card/indexcard.html">Proyecto 5-Card</a> <br>
+  <a href="centrarDiv.html">Centrar Div</a> <br>
+  <a href="flex.html">Flexbox</a> <br>
+  <a href="index2.html">Index 2</a> <br>
+  <a href="pinguino.html">Pinguino</a> <br>
+  <a href="positionfixed.html">Position Fixed</a> <br>
+</div>
+  <h2 id="headline-1">AppDeGatos</h2>
+
+  <main>
+    <h3>Imágenes de Gatos</h3>
+    <p>Haz click <a href="https://www.agenciaidp.com" target="_blank" rel="noopener noreferrer">aquí</a> para ver más
+      imágenes de gatos.</p>
+    <!-- Esto es un comentario-->
+    <!--Usar alt para describir las páginas-->
+    <div class="contenedor-2">
+      <a href="#foto1" rel="noopener noreferrer">
+        <img src="https://bit.ly/fcc-relaxing-cat"
+          alt="Un lindo gato naranja recostado sobre su esplada " class="esquinas"></a>
+    </div>
+    <h3>Listas de gatos</h3>
+    <div class="contenedor">
+      <p>Cosas que los gatos <em>aman</em>:</p>
+      <ul id="lista-1">
+        <li>Menta gatuna</li>
+        <li>Apuntadores láser</li>
+        <li><s>Lasaña</s></li>
+      </ul>
+      <hr>
+      <p>Cosas que los gatos <strong>odian</strong>:</p>
+      <ol id="lista-2">
+        <li>Tratamineto antipulgas</li>
+        <li>Truenos</li>
+        <li>Otros gatos</li>
+      </ol>
+
+    </div>
+    <img id="imagen-gato-sonriente" src="https://cdn.onemars.net/sites/nutro_es_NkyIN_B9cV/image/20_1615982101979.jpeg"
+      class="esquinas" alt="gato-sonriente" id="foto1">
+    <!--Despues de action va el archivo del lado del servidor que llevara a procesar esos datos
+    -->
+    <form action="/enviar-respuesta">
+      <label for="interior">
+        <input id="interior" type="radio" name="grupo" checked value="interior">Interior
+      </label>
+      <br>
+      <label for="exterior">
+        <input id="exterior" type="radio" name="grupo" value="exterior">Exterior
+      </label>
+      <br>
+      <!--Casilla de verificación o checkbox-->
+      <label for="cari">
+        <input type="checkbox" id="cari" name="grupo2" checked value="cariñoso">Cariñoso
+      </label> <br>
+      <label for="pere">
+        <input type="checkbox" id="pere" name="grupo2" value="perezoso">Perezoso
+      </label><br>
+      <label for="ener">
+        <input type="checkbox" id="ener" name="grupo2" value="enérgico">Enérgico
+      </label><br>
+
+      <input type="text" placeholder="escribe lo que quieras" required>
+      <br>
+      <button type="submit">Enviar
+
+
+      </button>
+    </form>
+  </main>
+  <footer>
+    <P><small> Derechos de autor - <a href="https://www.agenciaidp.com" target="_blank">agenciaidp.com</a></small></P>
+  </footer>
+</body>
+
+</html>
